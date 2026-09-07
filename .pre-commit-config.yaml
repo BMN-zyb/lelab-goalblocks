@@ -30,6 +30,7 @@ repos:
     hooks:
       - id: check-added-large-files
         args: ['--maxkb=1024']
+        exclude: '^frontend/(public|dist)/so-101-urdf/meshes/.*\.stl$'
       - id: debug-statements
       - id: check-merge-conflict
       - id: check-case-conflict
