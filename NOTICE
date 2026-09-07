@@ -1,0 +1,16 @@
+LeLab GoalBlocks
+Copyright 2026 the LeLab GoalBlocks contributors
+
+This product includes software developed by Hugging Face and contributors:
+
+* LeLab: https://github.com/huggingface/LeLab
+* LeRobot: https://github.com/huggingface/lerobot
+
+The upstream LeLab source and relevant LeRobot-derived integration patterns are
+licensed under the Apache License, Version 2.0. The upstream LICENSE file is
+retained in this repository.
+
+This derivative adds goal-image upload, Qwen-VL-assisted task-description
+generation, goal metadata persistence, a goal-conditioned multi-dataset policy,
+formal training utilities, and remote inference helpers. It is unofficial and
+is not endorsed by Hugging Face.

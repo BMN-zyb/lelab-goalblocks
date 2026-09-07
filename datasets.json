@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "task_family": "goal-conditioned SO-101 block manipulation",
+  "datasets": [
+    {
+      "repo_id": "bmnzyb/GoalBloakcs_1_20260906_155729",
+      "url": "https://huggingface.co/datasets/bmnzyb/GoalBloakcs_1_20260906_155729",
+      "episodes": 3,
+      "fps": 30,
+      "inputs": ["observation.images.top", "observation.images.wrist", "observation.state", "task", "goal.image"],
+      "known_issues": ["The top-camera stream contains corrupted or torn frames."]
+    },
+    {
+      "repo_id": "bmnzyb/GoalBloakcs_1_20260906_162409",
+      "url": "https://huggingface.co/datasets/bmnzyb/GoalBloakcs_1_20260906_162409",
+      "episodes": 2,
+      "fps": 30,
+      "inputs": ["observation.images.top", "observation.images.wrist", "observation.state", "task", "goal.image"],
+      "known_issues": ["The dataset is too small for reliable policy evaluation."]
+    }
+  ],
+  "contributions_welcome": true,
+  "contribution_request": "Please share additional goal-conditioned SO-101 datasets with hardware, camera, task, and collection metadata."
+}
