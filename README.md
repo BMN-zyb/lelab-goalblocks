@@ -10,6 +10,10 @@ This repository extends the LeLab recording interface with goal-image upload, op
 
 ### Goal-aware LeLab recording
 
+![Goal-aware recording configuration](docs/images/goal-recording-configuration.png)
+
+The recording dialog accepts goal images and can generate an editable task description before a demonstration begins.
+
 - Upload one to four goal images while configuring a recording.
 - Generate an editable task description from the goal image with Qwen-VL through DashScope.
 - Keep the API key in memory for one request only; it is not written to project files or dataset metadata.
