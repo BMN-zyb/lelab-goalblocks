@@ -32,6 +32,14 @@ The recording dialog accepts goal images and can generate an editable task descr
 
 The baseline has **738,432 parameters (0.74M)**. A comparable two-camera, six-state/six-action LeRobot ACT configuration has approximately **51.55M parameters**, about **69.8 times more**. This baseline is intended to validate the complete pipeline, not to replace ACT or represent the final planned architecture.
 
+### Released Checkpoint
+
+The early experimental checkpoint, training configuration, metrics, dataset index, and goal-aware recording screenshot are available on Hugging Face:
+
+[bmnzyb/goalblocks-so101-baseline](https://huggingface.co/bmnzyb/goalblocks-so101-baseline)
+
+This checkpoint was trained only to validate the end-to-end pipeline and must not be treated as a reliable or production-ready robot policy.
+
 ## Datasets
 
 The initial experiment uses two separately hosted LeRobot datasets:
